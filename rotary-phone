@@ -1,0 +1,6 @@
+        switch action {
+        case .changeCollage(let modification):
+            newState = changeCollage(modification, state: newState)
+        let shapeReducer = ShapeReducer(mediaReducer: mediaReducer)
+        let textReducer = TextReducer()
+        let stickerReducer = StickerReducer()
